@@ -45,6 +45,26 @@
             -webkit-text-size-adjust: 100%;
         }
 
+.video-container { 
+    margin: 0;
+    padding-bottom: 75%; 
+    max-width: 100%; 
+    height: 0;  
+    position: relative;
+    overflow: hidden;
+} 
+.video-container iframe, 
+.video-container object,
+.video-container embed {
+    margin: 0;
+    padding: 0;  
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
         /* What it does: Centers email on Android 4.4 */
         div[style*="margin: 16px 0"] {
             margin:0 !important;
@@ -152,11 +172,11 @@
     
 </head>
 <body width="100%" bgcolor="#222222" style="margin: 0; mso-line-height-rule: exactly;">
-    <center style="width: 100%; background: #222222; text-align: left;">
+    <center style="width: 100%; background: #f9f9f9; text-align: left;">
 
         <!-- Visually Hidden Preheader Text : BEGIN -->
         <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
-            (Optional) This text will appear in the inbox preview, but not the email body.
+            꿈다락 컨퍼런스에 초대합니다.
         </div>
         <!-- Visually Hidden Preheader Text : END -->
 
@@ -176,7 +196,8 @@
             <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;">
                 <tr>
                     <td style="padding: 20px 0; text-align: center">
-                        <img src="./top1.png" aria-hidden="true" width="200" height="50" alt="alt_text" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                        <a href=https://drive.google.com/file/d/0B5hzl2gi-uSobTVUUUh4ZkFWMTA/view?usp=sharing">                                                <img src="./1200x600.png" aria-hidden="true" width="600" height="" title="alt_title" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; display:block;" class="g-img"></a>
+                        <!--<img src="http://i.imgur.com/Euhb3gI.jpg" data-surl="http://i.imgur.com/Euhb3gI.jpg" width="512" height="384">-->
                     </td>
                 </tr>
             </table>
@@ -188,7 +209,7 @@
                 <!-- Hero Image, Flush : BEGIN -->
                 <tr>
                     <td bgcolor="#ffffff">
-                        <img src="./1200x600.png" aria-hidden="true" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="g-img">
+                        <img src="./1200x600.png" aria-hidden="true" width="600" height="" title="alt_title" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; display:block;" class="g-img">
                     </td>
                 </tr>
                 <!-- Hero Image, Flush : END -->
@@ -217,11 +238,14 @@
                                     <!-- Button : BEGIN -->
                                     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto;">
                                         <tr>
-                                            <td style="border-radius: 3px; background: #222222; text-align: center;" class="button-td">
-                                                <a href="http://stonekids.tv" style="background: #222222; border: 15px solid #222222; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a">
+                                            <!--<td style="border-radius: 3px; background: #222222; text-align: center;" class="button-td">-->
+                                                <!--<a href="http://stonekids.tv" style="background: #222222; border: 15px solid #222222; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a">
                                                     <span style="color:#ffffff;" class="button-link">&nbsp;&nbsp;&nbsp;&nbsp;동영상 보기 &nbsp;&nbsp;&nbsp;&nbsp;</span>
-                                                </a>
-                                            </td>
+                                                </a>-->
+                                                <div class="video-container">
+                                                <iframe src="https://player.vimeo.com/video/186520149?title=0&byline=0&portrait=0&badge=0" width=max-width height=max-height frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                </div>
+                                            <!--</td>-->
                                         </tr>
                                     </table>
                                     <!-- Button : END -->
